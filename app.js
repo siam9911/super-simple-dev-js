@@ -49,5 +49,17 @@ click("i1", () => {
   console.log(100 - 20 - 50 + 200);
 });
 click("j1", () => {
-    document.body.innerHTML = "";
+  document.body.innerHTML = "";
 });
+// Lesson 2
+show("a2", 10 + 3 * 8 + 5);
+show("b2", 39 / 3);
+show("c2", (1850 + 750) / 100);
+show("d2", 27 * 0.1);
+show("e2", ((1850 + 750) * 0.2) / 100);
+show("f2", (1899 + 2095 + 799) / 100);
+const total = 1899 + 2095 + 799 + 499;
+show("g2", total / 100);
+show("h2", Math.round(total * 0.1) / 100);
+show("i2", (total + Math.round(total * 0.1)) / 100);
+show("j2", Math.floor(2.8));
