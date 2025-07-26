@@ -60,7 +60,7 @@ export default function App() {
     // Lesson 2
     show("a2", 10 + 3 * 8 + 5);
     show("b2", 39 / 3);
-    show("c2", (1850 + 750) / 100);
+    show("c2", (1850 + 750*2) / 100);
     show("d2", 27 * 0.1);
     show("e2", ((1850 + 750) * 0.2) / 100);
     show("f2", (1899 + 2095 + 799) / 100);
@@ -85,7 +85,6 @@ export default function App() {
       <main className="container">
         <section>
           <h2 className="section-title">Lesson 1</h2>
-
           <div className="section-container">
             <button
               id="a1"
@@ -152,7 +151,63 @@ export default function App() {
         </section>
         <section>
           <h2 className="section-title">Lesson 2</h2>
-          <div className="section-container"></div>
+          <div className="section-container">
+            <p className="px-2 py-1 my-2 rounded border border-white">
+              2a. Cost of my order is: $<span id="a2" className="font-bold"></span>
+            </p>
+            <p className="px-2 py-1 my-2 rounded border border-white ">
+            2b. Cost of each Friend: $
+            <span id="b2" className="font-bold"></span>
+            </p>
+            <p className="px-2 py-1 my-2 rounded border border-white ">
+            2c. Total cost of a toaster and 2 shirts: $
+            <span id="c2" className="font-bold"></span>
+            </p>
+            <p className="px-2 py-1 my-2 rounded border border-white ">
+            2d. 10% Tax of Total Cost: $
+            <span id="d2" className="font-bold"></span>
+            </p>
+            <p className="px-2 py-1 my-2 rounded border border-white ">
+            2e. 20% Tax of Total Cost: $
+            <span id="e2" className="font-bold"></span>
+            </p>
+            <p className="px-2 py-1 my-2 rounded border border-white ">
+            2f. Cost without Tax and Shipping: $
+            <span id="f2" className="font-bold"></span>
+            </p>
+            <p className="px-2 py-1 my-2 rounded border border-white ">
+              2g. Cost without Tax: $
+            <span id="g2" className="font-bold"></span>
+            </p>
+            <p className="px-2 py-1 my-2 rounded border border-white ">
+              2h. Tax: $
+            <span id="h2" className="font-bold"></span>
+            </p>
+            <p className="px-2 py-1 my-2 rounded border border-white ">
+              2i. Total Payable Amount: $
+            <span id="i2" className="font-bold"></span>
+            </p>
+            <p className="px-2 py-1 my-2 rounded border border-white ">
+              2j. Rounding a number down(2.8):
+            <span id="j2" className="font-bold"></span>
+            </p>
+            <p className="px-2 py-1 my-2 rounded border border-white ">
+              2k. Rounding a number up(2.2):
+            <span id="k2" className="font-bold"></span>
+            </p>
+            <p className="px-2 py-1 my-2 rounded border border-white ">
+            2l. 25°C = °F
+            <span id="l2" className="font-bold"></span>
+            </p>
+            <p className="px-2 py-1 my-2 rounded border border-white ">
+            2m. 86°F =  °C
+            <span id="m2" className="font-bold"></span>
+            </p>
+            <p className="px-2 py-1 my-2 rounded border border-white ">
+            2n. -5°C = °F
+            <span id="n2" className="font-bold"></span>
+            </p>
+            </div>
         </section>
         <section>
           <h2 className="section-title">Lesson 3</h2>
