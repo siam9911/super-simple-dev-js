@@ -93,7 +93,7 @@ Thank you, come again!`)
     show("k3",`Items(${(2+2)}):${(2095+2095+799+799)/100}`)
     show("l3",`Shipping and handling: $${(499+499)/100}`)
     show("m3",`Total before tax: $${(5788+998)/100}`)
-    show("n3",`Estimated tax(10%):$${(6786*0.1)/100}`)
+    show("n3",`Estimated tax(10%):$${Math.round(6786*0.1)/100}`)
   }, []);
 
   return (
